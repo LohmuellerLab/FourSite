@@ -20,6 +20,7 @@ CountReadFoursite.py requires python 2.6 and the python pysam module.
 
 #### Input file
 A bam file and associated bai file is needed as input for CountReadFoursite.py. It is critical that your bai file is labelled .bam.bai i.e. if your bam is myfile.bam, your bai file should be myfile.bam.bai. See example in test dataset
+
 Foursite.R takes the output from CountReadFoursite.py as the input file.
 
 #### Sites file
