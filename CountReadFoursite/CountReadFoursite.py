@@ -1,7 +1,5 @@
 #! /usr/bin/env python
 ## Written for python2.6
-## to do change samefile = to bamfile = 
-## update the usage error
 import pysam
 import random
 import sys
