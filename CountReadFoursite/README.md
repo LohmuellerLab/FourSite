@@ -1,6 +1,6 @@
 # CountReadFoursite
 
-CountReadFoursitewas developed to provide a method that performs equally well on low coverage and high coverage data. A minimum of 4 reads per site are required for a calculate to be made for a position. The code is written to calculate heterozygosity within specific regions of the genome, and is run on each chromosome seperately. We suggest that you run multiple iterations, as the calculations are based on randomly drawing of the reads observed at a site. The script can be modified to run on all sites within a chromosome though [more details on this will be provided soon].
+CountReadFoursite was developed to provide a method that estimates heterozygosity that performs equally well on low coverage and high coverage data. A minimum of 4 reads per site are required for a calculate to be made for a position. The code is written to calculate heterozygosity within specific regions of the genome, and is run on each chromosome seperately. We suggest that you run multiple iterations, as the calculations are based on randomly drawing of the reads observed at a site. The script can be modified to run on all sites within a chromosome though [more details on this will be provided soon].
 
 #####usage 
     python CountReadFoursite.py number_iterations minimum_coverage maximum_coverage sites_file chromosome sampleid bamfile outfilename 
