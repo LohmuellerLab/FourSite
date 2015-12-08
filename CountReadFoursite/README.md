@@ -32,6 +32,8 @@ See example in the test dataset
 #### Pre-processing your bam file
 In order for Foursite to accurately estimate heterozygosity, we have found it very necessary to pre-process your bam file to reduce error rates. We did the following steps.  1) Reads were first trimmed using sickle and scythe (https://github.com/ucdavis-bioinformatics) to remove adaptor contamination and low quality sequence at the end of the read (Q<30). 2) Base quality score recalibration (part of GaTK) was applied to the reads. 3) We used a python script to change any bases Q<30 within a read to N, so that are ignored downstream (https://github.com/cdmarsden/replace_lowqualitybases).[** In the next version of CountReadFoursite.py we hope to remove the need for this step by assessing the quality score of the base within the script]. 4) We removed reads with low overall quality (i.e. length < 40, or where > 20% of bases had Q<30 (https://github.com/cdmarsden/remove_lowqualityreads) 
 
+It is noteworthy that within the script we count and output the number of 'triallelic sites'. i.e. sites where 3 bases are observed. In our experience, the presence of non-negligible numbers of triallelic sites is generally indicative of poor sequencing quality.
+
 #### Test dataset
 Provided are some test files
 myinfile.bam and myinfile.bam.bai
