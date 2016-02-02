@@ -1,0 +1,11 @@
+chromosome	iteration_number	count_excluded_triallelic_sites	count_exclued_error_sites	count_sites_excluded_for_lowhighcoverage	count_parsed_sites_from_sitesfile	type_of_site	SampleID	FourSite_count_parsed_sites_calcbasedon	Foursite_count_4readsSame	Foursite_count_3RdSame1Diff	Foursite_count_2readsame2readdif
+chr25	1	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48786	123	14
+chr25	2	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48767	135	21
+chr25	3	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48781	125	17
+chr25	4	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48787	121	15
+chr25	5	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48783	124	16
+chr25	6	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48773	134	16
+chr25	7	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48791	112	20
+chr25	8	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48780	130	13
+chr25	9	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48786	121	16
+chr25	10	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48779	129	15
