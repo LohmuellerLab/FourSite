@@ -1,0 +1,11 @@
+chromosome	iteration_number	count_excluded_triallelic_sites	count_exclued_error_sites	count_sites_excluded_for_lowhighcoverage	count_parsed_sites_from_sitesfile	type_of_site	SampleID	FourSite_count_parsed_sites_calcbasedon	Foursite_count_4readsSame	Foursite_count_3RdSame1Diff	Foursite_count_2readsame2readdif	error_est	pi	llike
+chr25	1	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48786	123	14	6e-05	0.0028	-1016.26236952726
+chr25	2	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48767	135	21	6e-05	0.003	-1140.30242106506
+chr25	3	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48781	125	17	6e-05	0.0029	-1049.58117630866
+chr25	4	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48787	121	15	6e-05	0.00275	-1010.28636899865
+chr25	5	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48783	124	16	6e-05	0.00285	-1036.36605946888
+chr25	6	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48773	134	16	6e-05	0.003	-1100.01555695168
+chr25	7	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48791	112	20	6e-05	0.0027	-986.796644389757
+chr25	8	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48780	130	13	6e-05	0.0029	-1054.20030052126
+chr25	9	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48786	121	16	6e-05	0.0028	-1017.15326842671
+chr25	10	2	0	2461	51386	chr25_sitesofinterest.txt	dog0920	48923	48779	129	15	6e-05	0.00295	-1061.45060883249
